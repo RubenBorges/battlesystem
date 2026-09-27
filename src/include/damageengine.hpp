@@ -40,7 +40,7 @@ public:
         // 2. Base Damage Calculation (Atk vs Def)
         // Standard RPG Formula: Base = Atk - (Def / 2)
         // Your implicit conversion operator allows us to treat these like integers cleanly
-        int base_damage = attacker.atk - (target.def / 2);
+        int base_damage = attacker.atk - (static_cast<std::int16_t>(target.def) / 2);
         if (base_damage < 1) base_damage = 1; // Guarantee at least 1 raw damage
 
         // 3. Critical Hit Check
@@ -48,16 +48,16 @@ public:
         if (random_percentage() <= crit_chance) {
             result.is_crit = true;
             // CritDmg modifier (e.g., if crit_dmg value is 150, it means 150% damage)
-            float crit_multiplier = attacker.crit_dmg > 0 ? (attacker.crit_dmg / 100.0f) : 1.5f;
+            float crit_multiplier = attacker.crit_dmg > 0 ? (static_cast<float>(attacker.crit_dmg) / 100.0f) : 1.5f;
             base_damage = static_cast<int>(base_damage * crit_multiplier);
         }
 
         // 4. Damage Reduction Mitigation (DR%)
         // If target has 15 DR, they take 85% of incoming damage
-        float dr_factor = 1.0f - (target.dr / 100.0f);
+        float dr_factor = 1.0f - (static_cast<float>(target.dr) / 100.0f);
         dr_factor = std::clamp(dr_factor, 0.0f, 1.0f); // Don't let DR increase damage or heal
 
-        result.final_damage = static_cast<int>(base_damage * dr_factor);
+        result.final_damage = static_cast<std::uint16_t>(base_damage * dr_factor);
         return result;
     }
 };

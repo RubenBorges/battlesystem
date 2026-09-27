@@ -3,7 +3,7 @@
 #include <string>
 
 #include <actor.hpp>
-#include <battlecalculator.hpp>
+#include <damageengine.hpp>
 #include <datamanager.hpp>
 #include <log.hpp>
 #include <statistics.hpp>

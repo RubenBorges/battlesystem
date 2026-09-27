@@ -1,18 +1,27 @@
 #pragma once 
 #include <statistics.hpp>
-#include <actor.hpp>
+#include <vector>
+#include <string>
 
-class AtbBattleSystem {
+
+struct Combatant {
+    std::string name;
+    Statistics stats;
+    bool is_alive = true;
+};
+
+class AtbEngine {
 private:
-    std::vector<Actor> combatants;
-    const float ATB_THRESHOLD = 100.0f; // Max capacity of the action bar
-    const float SPEED_MULTIPLIER = 0.5f; // Scales down values for manageable progression
+    // Constants controlling the scale and flow of the battle clock
+    static constexpr float MAX_GAUGE = 100.0f;
+    
+    // A global dial to tune how fast combat fields fill across your game
+    static constexpr float TIME_SCALE_FACTOR = 0.5f; 
 
 public:
-    void add_combatant(Actor actor) ;
-    // Runs continuously during combat
-    void update(float delta_time);
+    // Core tick function executed once per frame in your main game loop
+    static void tick_battle_clock(std::vector<Combatant>& party, std::vector<Combatant>& enemies, float delta_time) ;
 
-private:
-    void execute_turn(Actor& actor);
+    // Call this immediately after an action (attack, item, spell) successfully finishes resolving
+    static void consume_turn(Combatant& actor) ;
 };
