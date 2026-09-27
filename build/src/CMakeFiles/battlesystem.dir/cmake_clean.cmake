@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/battlesystem.dir/link.d"
   "CMakeFiles/battlesystem.dir/actor.cpp.o"
   "CMakeFiles/battlesystem.dir/actor.cpp.o.d"
+  "CMakeFiles/battlesystem.dir/atbsystem.cpp.o"
+  "CMakeFiles/battlesystem.dir/atbsystem.cpp.o.d"
   "CMakeFiles/battlesystem.dir/battlecalculator.cpp.o"
   "CMakeFiles/battlesystem.dir/battlecalculator.cpp.o.d"
   "CMakeFiles/battlesystem.dir/battlesystem.cpp.o"

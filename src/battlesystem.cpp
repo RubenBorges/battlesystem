@@ -7,12 +7,12 @@
 #include <datamanager.hpp>
 #include <log.hpp>
 #include <statistics.hpp>
+#include <graph.hpp>
 
 int main(int argc, char* argv[]) {
     // Establish basic command-line instructions
     if (argc < 3) {
-        std::println("Usage:   {} [path_to_gguf_model] \"[query]\" [file1.txt] [file2.txt] ...", argv[0]);
-        std::println("Example: {} ./dist/ibm-granite30m/ibm-granite \"Linda dog\" dist/docs/linda_the_dog.txt\n", argv[0]);
+        std::println("Usage:   {} [option 1] \"[option 2]\" [option 3] ...", argv[0]);
         return EXIT_FAILURE;
     }
 

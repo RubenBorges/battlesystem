@@ -199,6 +199,30 @@ actor.cpp.s:
 	cd /home/boopy/dev/Projects/battlesystem/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/battlesystem.dir/build.make src/CMakeFiles/battlesystem.dir/actor.cpp.s
 .PHONY : actor.cpp.s
 
+atbsystem.o: atbsystem.cpp.o
+.PHONY : atbsystem.o
+
+# target to build an object file
+atbsystem.cpp.o:
+	cd /home/boopy/dev/Projects/battlesystem/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/battlesystem.dir/build.make src/CMakeFiles/battlesystem.dir/atbsystem.cpp.o
+.PHONY : atbsystem.cpp.o
+
+atbsystem.i: atbsystem.cpp.i
+.PHONY : atbsystem.i
+
+# target to preprocess a source file
+atbsystem.cpp.i:
+	cd /home/boopy/dev/Projects/battlesystem/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/battlesystem.dir/build.make src/CMakeFiles/battlesystem.dir/atbsystem.cpp.i
+.PHONY : atbsystem.cpp.i
+
+atbsystem.s: atbsystem.cpp.s
+.PHONY : atbsystem.s
+
+# target to generate assembly for a file
+atbsystem.cpp.s:
+	cd /home/boopy/dev/Projects/battlesystem/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/battlesystem.dir/build.make src/CMakeFiles/battlesystem.dir/atbsystem.cpp.s
+.PHONY : atbsystem.cpp.s
+
 battlecalculator.o: battlecalculator.cpp.o
 .PHONY : battlecalculator.o
 
@@ -359,6 +383,9 @@ help:
 	@echo "... actor.o"
 	@echo "... actor.i"
 	@echo "... actor.s"
+	@echo "... atbsystem.o"
+	@echo "... atbsystem.i"
+	@echo "... atbsystem.s"
 	@echo "... battlecalculator.o"
 	@echo "... battlecalculator.i"
 	@echo "... battlecalculator.s"

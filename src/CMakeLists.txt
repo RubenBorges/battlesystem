@@ -7,6 +7,7 @@ set(SOURCES
     datamanager.cpp
     statistics.cpp
     graph.cpp
+    atbsystem.cpp
 )
 set(HEADERPATHS
     include/battlecalculator.hpp
@@ -15,6 +16,7 @@ set(HEADERPATHS
     include/graph.hpp
     include/log.hpp
     include/datamanager.hpp
+    include/atbsystem.hpp
 )
 
 add_executable(battlesystem ${SOURCES} ${HEADERPATHS})
