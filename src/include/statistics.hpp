@@ -53,39 +53,39 @@ struct Arithmetic {
     //=================//
     // Core Statistics //
     //=================//
-    struct HP : Arithmetic<HP>         {std::int16_t value{0};};
-    struct MP : Arithmetic<MP>         {std::int16_t value{0};};
-    struct Atk : Arithmetic<Atk>       {std::int16_t value{0};};
-    struct Def : Arithmetic<Def>       {std::int16_t value{0};};
-    struct Int : Arithmetic<Int>       {std::int16_t value{0};};
-    struct Spirit : Arithmetic<Spirit> {std::int16_t value{0};};
+    struct HP : Arithmetic<HP>         {std::int16_t value;};
+    struct MP : Arithmetic<MP>         {std::int16_t value;};
+    struct Atk : Arithmetic<Atk>       {std::int16_t value;};
+    struct Def : Arithmetic<Def>       {std::int16_t value;};
+    struct Int : Arithmetic<Int>       {std::int16_t value;};
+    struct Spirit : Arithmetic<Spirit> {std::int16_t value;};
 
     //==========================//
     // Turn & Action Modifiers //
     //=========================//
-    struct Spd : Arithmetic<Spd>         {std::int16_t value{0};};
-    struct Crit : Arithmetic<Crit>       {std::int16_t value{0};};
-    struct CritDmg : Arithmetic<CritDmg> {std::int16_t value{0};};
-    struct Acc : Arithmetic<Acc>         {std::int16_t value{0};};
-    struct Eva : Arithmetic<Eva>         {std::int16_t value{0};};
+    struct Spd : Arithmetic<Spd>         {std::int16_t value;};
+    struct Crit : Arithmetic<Crit>       {std::int16_t value;};
+    struct CritDmg : Arithmetic<CritDmg> {std::int16_t value;};
+    struct Acc : Arithmetic<Acc>         {std::int16_t value;};
+    struct Eva : Arithmetic<Eva>         {std::int16_t value;};
 
     //==================================//
     // Defensive & Mitigation Modifiers //
     //==================================//
-    struct Block : Arithmetic<Block>   {std::int16_t value{0};};
-    struct DR : Arithmetic<DR>         {std::int16_t value{0};};
-    struct VAMP : Arithmetic<VAMP>     {std::int16_t value{0};};
-    struct Resist : Arithmetic<Resist> {std::int16_t value{0};};
+    struct Block : Arithmetic<Block>   {std::int16_t value;};
+    struct DR : Arithmetic<DR>         {std::int16_t value;};
+    struct VAMP : Arithmetic<VAMP>     {std::int16_t value;};
+    struct Resist : Arithmetic<Resist> {std::int16_t value;};
 
     //===================================//
     // Attribute & Progression Modifiers //
     //===================================//
-    struct Aggro : Arithmetic<Aggro>       {std::int16_t value{0};};
-    struct Affinity : Arithmetic<Affinity> {std::int16_t value{0};};
+    struct Aggro : Arithmetic<Aggro>       {std::int16_t value;};
+    struct Affinity : Arithmetic<Affinity> {std::int16_t value;};
 
     // Cooldown Reduction (CDR)
-    struct CDR : Arithmetic<CDR>     {std::int16_t value{0};};
-    struct XpMod : Arithmetic<XpMod> {std::int16_t value{0};};
+    struct CDR : Arithmetic<CDR>     {std::int16_t value;};
+    struct XpMod : Arithmetic<XpMod> {std::int16_t value;};
 } // namespace stat
 
 struct Statistics {

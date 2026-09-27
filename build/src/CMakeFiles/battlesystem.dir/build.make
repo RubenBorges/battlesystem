@@ -114,24 +114,10 @@ src/CMakeFiles/battlesystem.dir/actor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/battlesystem.dir/actor.cpp.s"
 	cd /home/boopy/dev/Projects/battlesystem/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boopy/dev/Projects/battlesystem/src/actor.cpp -o CMakeFiles/battlesystem.dir/actor.cpp.s
 
-src/CMakeFiles/battlesystem.dir/log.cpp.o: src/CMakeFiles/battlesystem.dir/flags.make
-src/CMakeFiles/battlesystem.dir/log.cpp.o: /home/boopy/dev/Projects/battlesystem/src/log.cpp
-src/CMakeFiles/battlesystem.dir/log.cpp.o: src/CMakeFiles/battlesystem.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/boopy/dev/Projects/battlesystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/battlesystem.dir/log.cpp.o"
-	cd /home/boopy/dev/Projects/battlesystem/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/battlesystem.dir/log.cpp.o -MF CMakeFiles/battlesystem.dir/log.cpp.o.d -o CMakeFiles/battlesystem.dir/log.cpp.o -c /home/boopy/dev/Projects/battlesystem/src/log.cpp
-
-src/CMakeFiles/battlesystem.dir/log.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/battlesystem.dir/log.cpp.i"
-	cd /home/boopy/dev/Projects/battlesystem/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/boopy/dev/Projects/battlesystem/src/log.cpp > CMakeFiles/battlesystem.dir/log.cpp.i
-
-src/CMakeFiles/battlesystem.dir/log.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/battlesystem.dir/log.cpp.s"
-	cd /home/boopy/dev/Projects/battlesystem/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boopy/dev/Projects/battlesystem/src/log.cpp -o CMakeFiles/battlesystem.dir/log.cpp.s
-
 src/CMakeFiles/battlesystem.dir/datamanager.cpp.o: src/CMakeFiles/battlesystem.dir/flags.make
 src/CMakeFiles/battlesystem.dir/datamanager.cpp.o: /home/boopy/dev/Projects/battlesystem/src/datamanager.cpp
 src/CMakeFiles/battlesystem.dir/datamanager.cpp.o: src/CMakeFiles/battlesystem.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/boopy/dev/Projects/battlesystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/battlesystem.dir/datamanager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/boopy/dev/Projects/battlesystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/battlesystem.dir/datamanager.cpp.o"
 	cd /home/boopy/dev/Projects/battlesystem/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/battlesystem.dir/datamanager.cpp.o -MF CMakeFiles/battlesystem.dir/datamanager.cpp.o.d -o CMakeFiles/battlesystem.dir/datamanager.cpp.o -c /home/boopy/dev/Projects/battlesystem/src/datamanager.cpp
 
 src/CMakeFiles/battlesystem.dir/datamanager.cpp.i: cmake_force
@@ -145,7 +131,7 @@ src/CMakeFiles/battlesystem.dir/datamanager.cpp.s: cmake_force
 src/CMakeFiles/battlesystem.dir/statistics.cpp.o: src/CMakeFiles/battlesystem.dir/flags.make
 src/CMakeFiles/battlesystem.dir/statistics.cpp.o: /home/boopy/dev/Projects/battlesystem/src/statistics.cpp
 src/CMakeFiles/battlesystem.dir/statistics.cpp.o: src/CMakeFiles/battlesystem.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/boopy/dev/Projects/battlesystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/battlesystem.dir/statistics.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/boopy/dev/Projects/battlesystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/battlesystem.dir/statistics.cpp.o"
 	cd /home/boopy/dev/Projects/battlesystem/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/battlesystem.dir/statistics.cpp.o -MF CMakeFiles/battlesystem.dir/statistics.cpp.o.d -o CMakeFiles/battlesystem.dir/statistics.cpp.o -c /home/boopy/dev/Projects/battlesystem/src/statistics.cpp
 
 src/CMakeFiles/battlesystem.dir/statistics.cpp.i: cmake_force
@@ -156,24 +142,10 @@ src/CMakeFiles/battlesystem.dir/statistics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/battlesystem.dir/statistics.cpp.s"
 	cd /home/boopy/dev/Projects/battlesystem/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boopy/dev/Projects/battlesystem/src/statistics.cpp -o CMakeFiles/battlesystem.dir/statistics.cpp.s
 
-src/CMakeFiles/battlesystem.dir/graph.cpp.o: src/CMakeFiles/battlesystem.dir/flags.make
-src/CMakeFiles/battlesystem.dir/graph.cpp.o: /home/boopy/dev/Projects/battlesystem/src/graph.cpp
-src/CMakeFiles/battlesystem.dir/graph.cpp.o: src/CMakeFiles/battlesystem.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/boopy/dev/Projects/battlesystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/battlesystem.dir/graph.cpp.o"
-	cd /home/boopy/dev/Projects/battlesystem/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/battlesystem.dir/graph.cpp.o -MF CMakeFiles/battlesystem.dir/graph.cpp.o.d -o CMakeFiles/battlesystem.dir/graph.cpp.o -c /home/boopy/dev/Projects/battlesystem/src/graph.cpp
-
-src/CMakeFiles/battlesystem.dir/graph.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/battlesystem.dir/graph.cpp.i"
-	cd /home/boopy/dev/Projects/battlesystem/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/boopy/dev/Projects/battlesystem/src/graph.cpp > CMakeFiles/battlesystem.dir/graph.cpp.i
-
-src/CMakeFiles/battlesystem.dir/graph.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/battlesystem.dir/graph.cpp.s"
-	cd /home/boopy/dev/Projects/battlesystem/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boopy/dev/Projects/battlesystem/src/graph.cpp -o CMakeFiles/battlesystem.dir/graph.cpp.s
-
 src/CMakeFiles/battlesystem.dir/atbsystem.cpp.o: src/CMakeFiles/battlesystem.dir/flags.make
 src/CMakeFiles/battlesystem.dir/atbsystem.cpp.o: /home/boopy/dev/Projects/battlesystem/src/atbsystem.cpp
 src/CMakeFiles/battlesystem.dir/atbsystem.cpp.o: src/CMakeFiles/battlesystem.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/boopy/dev/Projects/battlesystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/battlesystem.dir/atbsystem.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/boopy/dev/Projects/battlesystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/battlesystem.dir/atbsystem.cpp.o"
 	cd /home/boopy/dev/Projects/battlesystem/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/battlesystem.dir/atbsystem.cpp.o -MF CMakeFiles/battlesystem.dir/atbsystem.cpp.o.d -o CMakeFiles/battlesystem.dir/atbsystem.cpp.o -c /home/boopy/dev/Projects/battlesystem/src/atbsystem.cpp
 
 src/CMakeFiles/battlesystem.dir/atbsystem.cpp.i: cmake_force
@@ -187,7 +159,7 @@ src/CMakeFiles/battlesystem.dir/atbsystem.cpp.s: cmake_force
 src/CMakeFiles/battlesystem.dir/priorityqueue.cpp.o: src/CMakeFiles/battlesystem.dir/flags.make
 src/CMakeFiles/battlesystem.dir/priorityqueue.cpp.o: /home/boopy/dev/Projects/battlesystem/src/priorityqueue.cpp
 src/CMakeFiles/battlesystem.dir/priorityqueue.cpp.o: src/CMakeFiles/battlesystem.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/boopy/dev/Projects/battlesystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/battlesystem.dir/priorityqueue.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/boopy/dev/Projects/battlesystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/battlesystem.dir/priorityqueue.cpp.o"
 	cd /home/boopy/dev/Projects/battlesystem/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/battlesystem.dir/priorityqueue.cpp.o -MF CMakeFiles/battlesystem.dir/priorityqueue.cpp.o.d -o CMakeFiles/battlesystem.dir/priorityqueue.cpp.o -c /home/boopy/dev/Projects/battlesystem/src/priorityqueue.cpp
 
 src/CMakeFiles/battlesystem.dir/priorityqueue.cpp.i: cmake_force
@@ -203,10 +175,8 @@ battlesystem_OBJECTS = \
 "CMakeFiles/battlesystem.dir/battlesystem.cpp.o" \
 "CMakeFiles/battlesystem.dir/damageengine.cpp.o" \
 "CMakeFiles/battlesystem.dir/actor.cpp.o" \
-"CMakeFiles/battlesystem.dir/log.cpp.o" \
 "CMakeFiles/battlesystem.dir/datamanager.cpp.o" \
 "CMakeFiles/battlesystem.dir/statistics.cpp.o" \
-"CMakeFiles/battlesystem.dir/graph.cpp.o" \
 "CMakeFiles/battlesystem.dir/atbsystem.cpp.o" \
 "CMakeFiles/battlesystem.dir/priorityqueue.cpp.o"
 
@@ -216,16 +186,14 @@ battlesystem_EXTERNAL_OBJECTS =
 src/battlesystem: src/CMakeFiles/battlesystem.dir/battlesystem.cpp.o
 src/battlesystem: src/CMakeFiles/battlesystem.dir/damageengine.cpp.o
 src/battlesystem: src/CMakeFiles/battlesystem.dir/actor.cpp.o
-src/battlesystem: src/CMakeFiles/battlesystem.dir/log.cpp.o
 src/battlesystem: src/CMakeFiles/battlesystem.dir/datamanager.cpp.o
 src/battlesystem: src/CMakeFiles/battlesystem.dir/statistics.cpp.o
-src/battlesystem: src/CMakeFiles/battlesystem.dir/graph.cpp.o
 src/battlesystem: src/CMakeFiles/battlesystem.dir/atbsystem.cpp.o
 src/battlesystem: src/CMakeFiles/battlesystem.dir/priorityqueue.cpp.o
 src/battlesystem: src/CMakeFiles/battlesystem.dir/build.make
 src/battlesystem: src/CMakeFiles/battlesystem.dir/compiler_depend.ts
 src/battlesystem: src/CMakeFiles/battlesystem.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/boopy/dev/Projects/battlesystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable battlesystem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/boopy/dev/Projects/battlesystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable battlesystem"
 	cd /home/boopy/dev/Projects/battlesystem/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/battlesystem.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

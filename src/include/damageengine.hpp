@@ -1,8 +1,8 @@
 #pragma once
 
+#include <cmath>
 #include <algorithm>
 #include <random>
-#include <cmath>
 #include <statistics.hpp>
 
 class DamageEngine {

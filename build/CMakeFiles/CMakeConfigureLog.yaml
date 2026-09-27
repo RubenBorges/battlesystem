@@ -20,10 +20,16 @@ events:
     names:
       - "uname"
     candidate_directories:
-      - "/home/boopy/emsdk/"
-      - "/home/boopy/emsdk/upstream/emscripten/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/"
       - "/home/boopy/Android/cmdline-tools/latest/bin/"
       - "/home/boopy/Android/platform-tools/"
+      - "/opt/gcc-17/bin/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/boopy/emsdk/"
+      - "/home/boopy/emsdk/upstream/emscripten/"
       - "/usr/lib/emsdk/"
       - "/usr/lib/emsdk/upstream/emscripten/"
       - "/usr/local/bin/"
@@ -38,17 +44,35 @@ events:
       - "/usr/bin/core_perl/"
       - "/usr/lib/plan9/bin/"
       - "/usr/lib/rustup/bin/"
+      - "/home/boopy/.cabal/bin/"
+      - "/home/boopy/.ghcup/bin/"
     searched_directories:
-      - "/home/boopy/emsdk/uname"
-      - "/home/boopy/emsdk/upstream/emscripten/uname"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin/uname"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/uname"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/uname"
       - "/home/boopy/Android/cmdline-tools/latest/bin/uname"
       - "/home/boopy/Android/platform-tools/uname"
+      - "/opt/gcc-17/bin/uname"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/uname"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/uname"
+      - "/home/boopy/emsdk/uname"
+      - "/home/boopy/emsdk/upstream/emscripten/uname"
       - "/usr/lib/emsdk/uname"
       - "/usr/lib/emsdk/upstream/emscripten/uname"
       - "/usr/local/bin/uname"
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/Android/cmdline-tools/latest/bin"
+        - "/home/boopy/Android/platform-tools"
+        - "/opt/gcc-17/bin"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/boopy/emsdk"
         - "/home/boopy/emsdk/upstream/emscripten"
         - "/home/boopy/Android/cmdline-tools/latest/bin"
@@ -67,6 +91,8 @@ events:
         - "/usr/bin/core_perl"
         - "/usr/lib/plan9/bin"
         - "/usr/lib/rustup/bin"
+        - "/home/boopy/.cabal/bin"
+        - "/home/boopy/.ghcup/bin"
       CMAKE_INSTALL_PREFIX: "/home/boopy/dev/Projects/battlesystem/dist"
   -
     kind: "message-v1"
@@ -96,10 +122,16 @@ events:
       - "make"
       - "smake"
     candidate_directories:
-      - "/home/boopy/emsdk/"
-      - "/home/boopy/emsdk/upstream/emscripten/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/"
       - "/home/boopy/Android/cmdline-tools/latest/bin/"
       - "/home/boopy/Android/platform-tools/"
+      - "/opt/gcc-17/bin/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/boopy/emsdk/"
+      - "/home/boopy/emsdk/upstream/emscripten/"
       - "/usr/lib/emsdk/"
       - "/usr/lib/emsdk/upstream/emscripten/"
       - "/usr/local/bin/"
@@ -114,11 +146,19 @@ events:
       - "/usr/bin/core_perl/"
       - "/usr/lib/plan9/bin/"
       - "/usr/lib/rustup/bin/"
+      - "/home/boopy/.cabal/bin/"
+      - "/home/boopy/.ghcup/bin/"
     searched_directories:
-      - "/home/boopy/emsdk/gmake"
-      - "/home/boopy/emsdk/upstream/emscripten/gmake"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin/gmake"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/gmake"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/gmake"
       - "/home/boopy/Android/cmdline-tools/latest/bin/gmake"
       - "/home/boopy/Android/platform-tools/gmake"
+      - "/opt/gcc-17/bin/gmake"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gmake"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gmake"
+      - "/home/boopy/emsdk/gmake"
+      - "/home/boopy/emsdk/upstream/emscripten/gmake"
       - "/usr/lib/emsdk/gmake"
       - "/usr/lib/emsdk/upstream/emscripten/gmake"
       - "/usr/local/bin/gmake"
@@ -133,16 +173,34 @@ events:
       - "/usr/bin/core_perl/gmake"
       - "/usr/lib/plan9/bin/gmake"
       - "/usr/lib/rustup/bin/gmake"
-      - "/home/boopy/emsdk/make"
-      - "/home/boopy/emsdk/upstream/emscripten/make"
+      - "/home/boopy/.cabal/bin/gmake"
+      - "/home/boopy/.ghcup/bin/gmake"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin/make"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/make"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/make"
       - "/home/boopy/Android/cmdline-tools/latest/bin/make"
       - "/home/boopy/Android/platform-tools/make"
+      - "/opt/gcc-17/bin/make"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/make"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/make"
+      - "/home/boopy/emsdk/make"
+      - "/home/boopy/emsdk/upstream/emscripten/make"
       - "/usr/lib/emsdk/make"
       - "/usr/lib/emsdk/upstream/emscripten/make"
       - "/usr/local/bin/make"
     found: "/usr/bin/make"
     search_context:
       ENV{PATH}:
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/Android/cmdline-tools/latest/bin"
+        - "/home/boopy/Android/platform-tools"
+        - "/opt/gcc-17/bin"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/boopy/emsdk"
         - "/home/boopy/emsdk/upstream/emscripten"
         - "/home/boopy/Android/cmdline-tools/latest/bin"
@@ -161,6 +219,8 @@ events:
         - "/usr/bin/core_perl"
         - "/usr/lib/plan9/bin"
         - "/usr/lib/rustup/bin"
+        - "/home/boopy/.cabal/bin"
+        - "/home/boopy/.ghcup/bin"
       CMAKE_INSTALL_PREFIX: "/home/boopy/dev/Projects/battlesystem/dist"
   -
     kind: "find-v1"
@@ -191,10 +251,16 @@ events:
       - "icx"
       - "clang++"
     candidate_directories:
-      - "/home/boopy/emsdk/"
-      - "/home/boopy/emsdk/upstream/emscripten/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/"
       - "/home/boopy/Android/cmdline-tools/latest/bin/"
       - "/home/boopy/Android/platform-tools/"
+      - "/opt/gcc-17/bin/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/boopy/emsdk/"
+      - "/home/boopy/emsdk/upstream/emscripten/"
       - "/usr/lib/emsdk/"
       - "/usr/lib/emsdk/upstream/emscripten/"
       - "/usr/local/bin/"
@@ -209,17 +275,35 @@ events:
       - "/usr/bin/core_perl/"
       - "/usr/lib/plan9/bin/"
       - "/usr/lib/rustup/bin/"
+      - "/home/boopy/.cabal/bin/"
+      - "/home/boopy/.ghcup/bin/"
     searched_directories:
-      - "/home/boopy/emsdk/c++"
-      - "/home/boopy/emsdk/upstream/emscripten/c++"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin/c++"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/c++"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/c++"
       - "/home/boopy/Android/cmdline-tools/latest/bin/c++"
       - "/home/boopy/Android/platform-tools/c++"
+      - "/opt/gcc-17/bin/c++"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/c++"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/c++"
+      - "/home/boopy/emsdk/c++"
+      - "/home/boopy/emsdk/upstream/emscripten/c++"
       - "/usr/lib/emsdk/c++"
       - "/usr/lib/emsdk/upstream/emscripten/c++"
       - "/usr/local/bin/c++"
     found: "/usr/bin/c++"
     search_context:
       ENV{PATH}:
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/Android/cmdline-tools/latest/bin"
+        - "/home/boopy/Android/platform-tools"
+        - "/opt/gcc-17/bin"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/boopy/emsdk"
         - "/home/boopy/emsdk/upstream/emscripten"
         - "/home/boopy/Android/cmdline-tools/latest/bin"
@@ -238,6 +322,8 @@ events:
         - "/usr/bin/core_perl"
         - "/usr/lib/plan9/bin"
         - "/usr/lib/rustup/bin"
+        - "/home/boopy/.cabal/bin"
+        - "/home/boopy/.ghcup/bin"
       CMAKE_INSTALL_PREFIX: "/home/boopy/dev/Projects/battlesystem/dist"
   -
     kind: "find-v1"
@@ -266,6 +352,16 @@ events:
     found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/Android/cmdline-tools/latest/bin"
+        - "/home/boopy/Android/platform-tools"
+        - "/opt/gcc-17/bin"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/boopy/emsdk"
         - "/home/boopy/emsdk/upstream/emscripten"
         - "/home/boopy/Android/cmdline-tools/latest/bin"
@@ -284,6 +380,8 @@ events:
         - "/usr/bin/core_perl"
         - "/usr/lib/plan9/bin"
         - "/usr/lib/rustup/bin"
+        - "/home/boopy/.cabal/bin"
+        - "/home/boopy/.ghcup/bin"
       CMAKE_INSTALL_PREFIX: "/home/boopy/dev/Projects/battlesystem/dist"
   -
     kind: "message-v1"
@@ -328,10 +426,16 @@ events:
       - "ar"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/boopy/emsdk/"
-      - "/home/boopy/emsdk/upstream/emscripten/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/"
       - "/home/boopy/Android/cmdline-tools/latest/bin/"
       - "/home/boopy/Android/platform-tools/"
+      - "/opt/gcc-17/bin/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/boopy/emsdk/"
+      - "/home/boopy/emsdk/upstream/emscripten/"
       - "/usr/lib/emsdk/"
       - "/usr/lib/emsdk/upstream/emscripten/"
       - "/usr/local/bin/"
@@ -345,9 +449,21 @@ events:
       - "/usr/bin/core_perl/"
       - "/usr/lib/plan9/bin/"
       - "/usr/lib/rustup/bin/"
+      - "/home/boopy/.cabal/bin/"
+      - "/home/boopy/.ghcup/bin/"
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/Android/cmdline-tools/latest/bin"
+        - "/home/boopy/Android/platform-tools"
+        - "/opt/gcc-17/bin"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/boopy/emsdk"
         - "/home/boopy/emsdk/upstream/emscripten"
         - "/home/boopy/Android/cmdline-tools/latest/bin"
@@ -366,6 +482,8 @@ events:
         - "/usr/bin/core_perl"
         - "/usr/lib/plan9/bin"
         - "/usr/lib/rustup/bin"
+        - "/home/boopy/.cabal/bin"
+        - "/home/boopy/.ghcup/bin"
       CMAKE_INSTALL_PREFIX: "/home/boopy/dev/Projects/battlesystem/dist"
   -
     kind: "find-v1"
@@ -388,10 +506,16 @@ events:
       - "ranlib"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/boopy/emsdk/"
-      - "/home/boopy/emsdk/upstream/emscripten/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/"
       - "/home/boopy/Android/cmdline-tools/latest/bin/"
       - "/home/boopy/Android/platform-tools/"
+      - "/opt/gcc-17/bin/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/boopy/emsdk/"
+      - "/home/boopy/emsdk/upstream/emscripten/"
       - "/usr/lib/emsdk/"
       - "/usr/lib/emsdk/upstream/emscripten/"
       - "/usr/local/bin/"
@@ -405,9 +529,21 @@ events:
       - "/usr/bin/core_perl/"
       - "/usr/lib/plan9/bin/"
       - "/usr/lib/rustup/bin/"
+      - "/home/boopy/.cabal/bin/"
+      - "/home/boopy/.ghcup/bin/"
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/Android/cmdline-tools/latest/bin"
+        - "/home/boopy/Android/platform-tools"
+        - "/opt/gcc-17/bin"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/boopy/emsdk"
         - "/home/boopy/emsdk/upstream/emscripten"
         - "/home/boopy/Android/cmdline-tools/latest/bin"
@@ -426,6 +562,8 @@ events:
         - "/usr/bin/core_perl"
         - "/usr/lib/plan9/bin"
         - "/usr/lib/rustup/bin"
+        - "/home/boopy/.cabal/bin"
+        - "/home/boopy/.ghcup/bin"
       CMAKE_INSTALL_PREFIX: "/home/boopy/dev/Projects/battlesystem/dist"
   -
     kind: "find-v1"
@@ -448,10 +586,16 @@ events:
       - "strip"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/boopy/emsdk/"
-      - "/home/boopy/emsdk/upstream/emscripten/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/"
       - "/home/boopy/Android/cmdline-tools/latest/bin/"
       - "/home/boopy/Android/platform-tools/"
+      - "/opt/gcc-17/bin/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/boopy/emsdk/"
+      - "/home/boopy/emsdk/upstream/emscripten/"
       - "/usr/lib/emsdk/"
       - "/usr/lib/emsdk/upstream/emscripten/"
       - "/usr/local/bin/"
@@ -465,9 +609,21 @@ events:
       - "/usr/bin/core_perl/"
       - "/usr/lib/plan9/bin/"
       - "/usr/lib/rustup/bin/"
+      - "/home/boopy/.cabal/bin/"
+      - "/home/boopy/.ghcup/bin/"
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/Android/cmdline-tools/latest/bin"
+        - "/home/boopy/Android/platform-tools"
+        - "/opt/gcc-17/bin"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/boopy/emsdk"
         - "/home/boopy/emsdk/upstream/emscripten"
         - "/home/boopy/Android/cmdline-tools/latest/bin"
@@ -486,6 +642,8 @@ events:
         - "/usr/bin/core_perl"
         - "/usr/lib/plan9/bin"
         - "/usr/lib/rustup/bin"
+        - "/home/boopy/.cabal/bin"
+        - "/home/boopy/.ghcup/bin"
       CMAKE_INSTALL_PREFIX: "/home/boopy/dev/Projects/battlesystem/dist"
   -
     kind: "find-v1"
@@ -508,10 +666,16 @@ events:
       - "ld"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/boopy/emsdk/"
-      - "/home/boopy/emsdk/upstream/emscripten/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/"
       - "/home/boopy/Android/cmdline-tools/latest/bin/"
       - "/home/boopy/Android/platform-tools/"
+      - "/opt/gcc-17/bin/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/boopy/emsdk/"
+      - "/home/boopy/emsdk/upstream/emscripten/"
       - "/usr/lib/emsdk/"
       - "/usr/lib/emsdk/upstream/emscripten/"
       - "/usr/local/bin/"
@@ -525,9 +689,21 @@ events:
       - "/usr/bin/core_perl/"
       - "/usr/lib/plan9/bin/"
       - "/usr/lib/rustup/bin/"
+      - "/home/boopy/.cabal/bin/"
+      - "/home/boopy/.ghcup/bin/"
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/Android/cmdline-tools/latest/bin"
+        - "/home/boopy/Android/platform-tools"
+        - "/opt/gcc-17/bin"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/boopy/emsdk"
         - "/home/boopy/emsdk/upstream/emscripten"
         - "/home/boopy/Android/cmdline-tools/latest/bin"
@@ -546,6 +722,8 @@ events:
         - "/usr/bin/core_perl"
         - "/usr/lib/plan9/bin"
         - "/usr/lib/rustup/bin"
+        - "/home/boopy/.cabal/bin"
+        - "/home/boopy/.ghcup/bin"
       CMAKE_INSTALL_PREFIX: "/home/boopy/dev/Projects/battlesystem/dist"
   -
     kind: "find-v1"
@@ -568,10 +746,16 @@ events:
       - "nm"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/boopy/emsdk/"
-      - "/home/boopy/emsdk/upstream/emscripten/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/"
       - "/home/boopy/Android/cmdline-tools/latest/bin/"
       - "/home/boopy/Android/platform-tools/"
+      - "/opt/gcc-17/bin/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/boopy/emsdk/"
+      - "/home/boopy/emsdk/upstream/emscripten/"
       - "/usr/lib/emsdk/"
       - "/usr/lib/emsdk/upstream/emscripten/"
       - "/usr/local/bin/"
@@ -585,9 +769,21 @@ events:
       - "/usr/bin/core_perl/"
       - "/usr/lib/plan9/bin/"
       - "/usr/lib/rustup/bin/"
+      - "/home/boopy/.cabal/bin/"
+      - "/home/boopy/.ghcup/bin/"
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/Android/cmdline-tools/latest/bin"
+        - "/home/boopy/Android/platform-tools"
+        - "/opt/gcc-17/bin"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/boopy/emsdk"
         - "/home/boopy/emsdk/upstream/emscripten"
         - "/home/boopy/Android/cmdline-tools/latest/bin"
@@ -606,6 +802,8 @@ events:
         - "/usr/bin/core_perl"
         - "/usr/lib/plan9/bin"
         - "/usr/lib/rustup/bin"
+        - "/home/boopy/.cabal/bin"
+        - "/home/boopy/.ghcup/bin"
       CMAKE_INSTALL_PREFIX: "/home/boopy/dev/Projects/battlesystem/dist"
   -
     kind: "find-v1"
@@ -628,10 +826,16 @@ events:
       - "objdump"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/boopy/emsdk/"
-      - "/home/boopy/emsdk/upstream/emscripten/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/"
       - "/home/boopy/Android/cmdline-tools/latest/bin/"
       - "/home/boopy/Android/platform-tools/"
+      - "/opt/gcc-17/bin/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/boopy/emsdk/"
+      - "/home/boopy/emsdk/upstream/emscripten/"
       - "/usr/lib/emsdk/"
       - "/usr/lib/emsdk/upstream/emscripten/"
       - "/usr/local/bin/"
@@ -645,9 +849,21 @@ events:
       - "/usr/bin/core_perl/"
       - "/usr/lib/plan9/bin/"
       - "/usr/lib/rustup/bin/"
+      - "/home/boopy/.cabal/bin/"
+      - "/home/boopy/.ghcup/bin/"
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/Android/cmdline-tools/latest/bin"
+        - "/home/boopy/Android/platform-tools"
+        - "/opt/gcc-17/bin"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/boopy/emsdk"
         - "/home/boopy/emsdk/upstream/emscripten"
         - "/home/boopy/Android/cmdline-tools/latest/bin"
@@ -666,6 +882,8 @@ events:
         - "/usr/bin/core_perl"
         - "/usr/lib/plan9/bin"
         - "/usr/lib/rustup/bin"
+        - "/home/boopy/.cabal/bin"
+        - "/home/boopy/.ghcup/bin"
       CMAKE_INSTALL_PREFIX: "/home/boopy/dev/Projects/battlesystem/dist"
   -
     kind: "find-v1"
@@ -688,10 +906,16 @@ events:
       - "objcopy"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/boopy/emsdk/"
-      - "/home/boopy/emsdk/upstream/emscripten/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/"
       - "/home/boopy/Android/cmdline-tools/latest/bin/"
       - "/home/boopy/Android/platform-tools/"
+      - "/opt/gcc-17/bin/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/boopy/emsdk/"
+      - "/home/boopy/emsdk/upstream/emscripten/"
       - "/usr/lib/emsdk/"
       - "/usr/lib/emsdk/upstream/emscripten/"
       - "/usr/local/bin/"
@@ -705,9 +929,21 @@ events:
       - "/usr/bin/core_perl/"
       - "/usr/lib/plan9/bin/"
       - "/usr/lib/rustup/bin/"
+      - "/home/boopy/.cabal/bin/"
+      - "/home/boopy/.ghcup/bin/"
     found: "/usr/bin/objcopy"
     search_context:
       ENV{PATH}:
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/Android/cmdline-tools/latest/bin"
+        - "/home/boopy/Android/platform-tools"
+        - "/opt/gcc-17/bin"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/boopy/emsdk"
         - "/home/boopy/emsdk/upstream/emscripten"
         - "/home/boopy/Android/cmdline-tools/latest/bin"
@@ -726,6 +962,8 @@ events:
         - "/usr/bin/core_perl"
         - "/usr/lib/plan9/bin"
         - "/usr/lib/rustup/bin"
+        - "/home/boopy/.cabal/bin"
+        - "/home/boopy/.ghcup/bin"
       CMAKE_INSTALL_PREFIX: "/home/boopy/dev/Projects/battlesystem/dist"
   -
     kind: "find-v1"
@@ -748,10 +986,16 @@ events:
       - "readelf"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/boopy/emsdk/"
-      - "/home/boopy/emsdk/upstream/emscripten/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/"
       - "/home/boopy/Android/cmdline-tools/latest/bin/"
       - "/home/boopy/Android/platform-tools/"
+      - "/opt/gcc-17/bin/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/boopy/emsdk/"
+      - "/home/boopy/emsdk/upstream/emscripten/"
       - "/usr/lib/emsdk/"
       - "/usr/lib/emsdk/upstream/emscripten/"
       - "/usr/local/bin/"
@@ -765,9 +1009,21 @@ events:
       - "/usr/bin/core_perl/"
       - "/usr/lib/plan9/bin/"
       - "/usr/lib/rustup/bin/"
+      - "/home/boopy/.cabal/bin/"
+      - "/home/boopy/.ghcup/bin/"
     found: "/usr/bin/readelf"
     search_context:
       ENV{PATH}:
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/Android/cmdline-tools/latest/bin"
+        - "/home/boopy/Android/platform-tools"
+        - "/opt/gcc-17/bin"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/boopy/emsdk"
         - "/home/boopy/emsdk/upstream/emscripten"
         - "/home/boopy/Android/cmdline-tools/latest/bin"
@@ -786,6 +1042,8 @@ events:
         - "/usr/bin/core_perl"
         - "/usr/lib/plan9/bin"
         - "/usr/lib/rustup/bin"
+        - "/home/boopy/.cabal/bin"
+        - "/home/boopy/.ghcup/bin"
       CMAKE_INSTALL_PREFIX: "/home/boopy/dev/Projects/battlesystem/dist"
   -
     kind: "find-v1"
@@ -808,10 +1066,16 @@ events:
       - "dlltool"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/boopy/emsdk/"
-      - "/home/boopy/emsdk/upstream/emscripten/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/"
       - "/home/boopy/Android/cmdline-tools/latest/bin/"
       - "/home/boopy/Android/platform-tools/"
+      - "/opt/gcc-17/bin/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/boopy/emsdk/"
+      - "/home/boopy/emsdk/upstream/emscripten/"
       - "/usr/lib/emsdk/"
       - "/usr/lib/emsdk/upstream/emscripten/"
       - "/usr/local/bin/"
@@ -825,12 +1089,20 @@ events:
       - "/usr/bin/core_perl/"
       - "/usr/lib/plan9/bin/"
       - "/usr/lib/rustup/bin/"
+      - "/home/boopy/.cabal/bin/"
+      - "/home/boopy/.ghcup/bin/"
     searched_directories:
       - "/usr/bin/dlltool"
-      - "/home/boopy/emsdk/dlltool"
-      - "/home/boopy/emsdk/upstream/emscripten/dlltool"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin/dlltool"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/dlltool"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/dlltool"
       - "/home/boopy/Android/cmdline-tools/latest/bin/dlltool"
       - "/home/boopy/Android/platform-tools/dlltool"
+      - "/opt/gcc-17/bin/dlltool"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/dlltool"
+      - "/home/boopy/emsdk/dlltool"
+      - "/home/boopy/emsdk/upstream/emscripten/dlltool"
       - "/usr/lib/emsdk/dlltool"
       - "/usr/lib/emsdk/upstream/emscripten/dlltool"
       - "/usr/local/bin/dlltool"
@@ -844,9 +1116,21 @@ events:
       - "/usr/bin/core_perl/dlltool"
       - "/usr/lib/plan9/bin/dlltool"
       - "/usr/lib/rustup/bin/dlltool"
+      - "/home/boopy/.cabal/bin/dlltool"
+      - "/home/boopy/.ghcup/bin/dlltool"
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/Android/cmdline-tools/latest/bin"
+        - "/home/boopy/Android/platform-tools"
+        - "/opt/gcc-17/bin"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/boopy/emsdk"
         - "/home/boopy/emsdk/upstream/emscripten"
         - "/home/boopy/Android/cmdline-tools/latest/bin"
@@ -865,6 +1149,8 @@ events:
         - "/usr/bin/core_perl"
         - "/usr/lib/plan9/bin"
         - "/usr/lib/rustup/bin"
+        - "/home/boopy/.cabal/bin"
+        - "/home/boopy/.ghcup/bin"
       CMAKE_INSTALL_PREFIX: "/home/boopy/dev/Projects/battlesystem/dist"
   -
     kind: "find-v1"
@@ -887,10 +1173,16 @@ events:
       - "addr2line"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/boopy/emsdk/"
-      - "/home/boopy/emsdk/upstream/emscripten/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/"
       - "/home/boopy/Android/cmdline-tools/latest/bin/"
       - "/home/boopy/Android/platform-tools/"
+      - "/opt/gcc-17/bin/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/boopy/emsdk/"
+      - "/home/boopy/emsdk/upstream/emscripten/"
       - "/usr/lib/emsdk/"
       - "/usr/lib/emsdk/upstream/emscripten/"
       - "/usr/local/bin/"
@@ -904,9 +1196,21 @@ events:
       - "/usr/bin/core_perl/"
       - "/usr/lib/plan9/bin/"
       - "/usr/lib/rustup/bin/"
+      - "/home/boopy/.cabal/bin/"
+      - "/home/boopy/.ghcup/bin/"
     found: "/usr/bin/addr2line"
     search_context:
       ENV{PATH}:
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/Android/cmdline-tools/latest/bin"
+        - "/home/boopy/Android/platform-tools"
+        - "/opt/gcc-17/bin"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/boopy/emsdk"
         - "/home/boopy/emsdk/upstream/emscripten"
         - "/home/boopy/Android/cmdline-tools/latest/bin"
@@ -925,6 +1229,8 @@ events:
         - "/usr/bin/core_perl"
         - "/usr/lib/plan9/bin"
         - "/usr/lib/rustup/bin"
+        - "/home/boopy/.cabal/bin"
+        - "/home/boopy/.ghcup/bin"
       CMAKE_INSTALL_PREFIX: "/home/boopy/dev/Projects/battlesystem/dist"
   -
     kind: "find-v1"
@@ -947,10 +1253,16 @@ events:
       - "tapi"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/boopy/emsdk/"
-      - "/home/boopy/emsdk/upstream/emscripten/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/"
       - "/home/boopy/Android/cmdline-tools/latest/bin/"
       - "/home/boopy/Android/platform-tools/"
+      - "/opt/gcc-17/bin/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/boopy/emsdk/"
+      - "/home/boopy/emsdk/upstream/emscripten/"
       - "/usr/lib/emsdk/"
       - "/usr/lib/emsdk/upstream/emscripten/"
       - "/usr/local/bin/"
@@ -964,12 +1276,20 @@ events:
       - "/usr/bin/core_perl/"
       - "/usr/lib/plan9/bin/"
       - "/usr/lib/rustup/bin/"
+      - "/home/boopy/.cabal/bin/"
+      - "/home/boopy/.ghcup/bin/"
     searched_directories:
       - "/usr/bin/tapi"
-      - "/home/boopy/emsdk/tapi"
-      - "/home/boopy/emsdk/upstream/emscripten/tapi"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin/tapi"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/tapi"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tapi"
       - "/home/boopy/Android/cmdline-tools/latest/bin/tapi"
       - "/home/boopy/Android/platform-tools/tapi"
+      - "/opt/gcc-17/bin/tapi"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi"
+      - "/home/boopy/emsdk/tapi"
+      - "/home/boopy/emsdk/upstream/emscripten/tapi"
       - "/usr/lib/emsdk/tapi"
       - "/usr/lib/emsdk/upstream/emscripten/tapi"
       - "/usr/local/bin/tapi"
@@ -983,9 +1303,21 @@ events:
       - "/usr/bin/core_perl/tapi"
       - "/usr/lib/plan9/bin/tapi"
       - "/usr/lib/rustup/bin/tapi"
+      - "/home/boopy/.cabal/bin/tapi"
+      - "/home/boopy/.ghcup/bin/tapi"
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/Android/cmdline-tools/latest/bin"
+        - "/home/boopy/Android/platform-tools"
+        - "/opt/gcc-17/bin"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/boopy/emsdk"
         - "/home/boopy/emsdk/upstream/emscripten"
         - "/home/boopy/Android/cmdline-tools/latest/bin"
@@ -1004,6 +1336,8 @@ events:
         - "/usr/bin/core_perl"
         - "/usr/lib/plan9/bin"
         - "/usr/lib/rustup/bin"
+        - "/home/boopy/.cabal/bin"
+        - "/home/boopy/.ghcup/bin"
       CMAKE_INSTALL_PREFIX: "/home/boopy/dev/Projects/battlesystem/dist"
   -
     kind: "find-v1"
@@ -1029,10 +1363,16 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/boopy/emsdk/"
-      - "/home/boopy/emsdk/upstream/emscripten/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/"
       - "/home/boopy/Android/cmdline-tools/latest/bin/"
       - "/home/boopy/Android/platform-tools/"
+      - "/opt/gcc-17/bin/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/boopy/emsdk/"
+      - "/home/boopy/emsdk/upstream/emscripten/"
       - "/usr/lib/emsdk/"
       - "/usr/lib/emsdk/upstream/emscripten/"
       - "/usr/local/bin/"
@@ -1046,12 +1386,20 @@ events:
       - "/usr/bin/core_perl/"
       - "/usr/lib/plan9/bin/"
       - "/usr/lib/rustup/bin/"
+      - "/home/boopy/.cabal/bin/"
+      - "/home/boopy/.ghcup/bin/"
     searched_directories:
       - "/usr/bin/gcc-ar-16.2"
-      - "/home/boopy/emsdk/gcc-ar-16.2"
-      - "/home/boopy/emsdk/upstream/emscripten/gcc-ar-16.2"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin/gcc-ar-16.2"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/gcc-ar-16.2"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/gcc-ar-16.2"
       - "/home/boopy/Android/cmdline-tools/latest/bin/gcc-ar-16.2"
       - "/home/boopy/Android/platform-tools/gcc-ar-16.2"
+      - "/opt/gcc-17/bin/gcc-ar-16.2"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-16.2"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-16.2"
+      - "/home/boopy/emsdk/gcc-ar-16.2"
+      - "/home/boopy/emsdk/upstream/emscripten/gcc-ar-16.2"
       - "/usr/lib/emsdk/gcc-ar-16.2"
       - "/usr/lib/emsdk/upstream/emscripten/gcc-ar-16.2"
       - "/usr/local/bin/gcc-ar-16.2"
@@ -1065,11 +1413,19 @@ events:
       - "/usr/bin/core_perl/gcc-ar-16.2"
       - "/usr/lib/plan9/bin/gcc-ar-16.2"
       - "/usr/lib/rustup/bin/gcc-ar-16.2"
+      - "/home/boopy/.cabal/bin/gcc-ar-16.2"
+      - "/home/boopy/.ghcup/bin/gcc-ar-16.2"
       - "/usr/bin/gcc-ar-16"
-      - "/home/boopy/emsdk/gcc-ar-16"
-      - "/home/boopy/emsdk/upstream/emscripten/gcc-ar-16"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin/gcc-ar-16"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/gcc-ar-16"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/gcc-ar-16"
       - "/home/boopy/Android/cmdline-tools/latest/bin/gcc-ar-16"
       - "/home/boopy/Android/platform-tools/gcc-ar-16"
+      - "/opt/gcc-17/bin/gcc-ar-16"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-16"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-16"
+      - "/home/boopy/emsdk/gcc-ar-16"
+      - "/home/boopy/emsdk/upstream/emscripten/gcc-ar-16"
       - "/usr/lib/emsdk/gcc-ar-16"
       - "/usr/lib/emsdk/upstream/emscripten/gcc-ar-16"
       - "/usr/local/bin/gcc-ar-16"
@@ -1083,11 +1439,19 @@ events:
       - "/usr/bin/core_perl/gcc-ar-16"
       - "/usr/lib/plan9/bin/gcc-ar-16"
       - "/usr/lib/rustup/bin/gcc-ar-16"
+      - "/home/boopy/.cabal/bin/gcc-ar-16"
+      - "/home/boopy/.ghcup/bin/gcc-ar-16"
       - "/usr/bin/gcc-ar16"
-      - "/home/boopy/emsdk/gcc-ar16"
-      - "/home/boopy/emsdk/upstream/emscripten/gcc-ar16"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin/gcc-ar16"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/gcc-ar16"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/gcc-ar16"
       - "/home/boopy/Android/cmdline-tools/latest/bin/gcc-ar16"
       - "/home/boopy/Android/platform-tools/gcc-ar16"
+      - "/opt/gcc-17/bin/gcc-ar16"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar16"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar16"
+      - "/home/boopy/emsdk/gcc-ar16"
+      - "/home/boopy/emsdk/upstream/emscripten/gcc-ar16"
       - "/usr/lib/emsdk/gcc-ar16"
       - "/usr/lib/emsdk/upstream/emscripten/gcc-ar16"
       - "/usr/local/bin/gcc-ar16"
@@ -1101,9 +1465,21 @@ events:
       - "/usr/bin/core_perl/gcc-ar16"
       - "/usr/lib/plan9/bin/gcc-ar16"
       - "/usr/lib/rustup/bin/gcc-ar16"
+      - "/home/boopy/.cabal/bin/gcc-ar16"
+      - "/home/boopy/.ghcup/bin/gcc-ar16"
     found: "/usr/bin/gcc-ar"
     search_context:
       ENV{PATH}:
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/Android/cmdline-tools/latest/bin"
+        - "/home/boopy/Android/platform-tools"
+        - "/opt/gcc-17/bin"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/boopy/emsdk"
         - "/home/boopy/emsdk/upstream/emscripten"
         - "/home/boopy/Android/cmdline-tools/latest/bin"
@@ -1122,6 +1498,8 @@ events:
         - "/usr/bin/core_perl"
         - "/usr/lib/plan9/bin"
         - "/usr/lib/rustup/bin"
+        - "/home/boopy/.cabal/bin"
+        - "/home/boopy/.ghcup/bin"
       CMAKE_INSTALL_PREFIX: "/home/boopy/dev/Projects/battlesystem/dist"
   -
     kind: "find-v1"
@@ -1147,10 +1525,16 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/boopy/emsdk/"
-      - "/home/boopy/emsdk/upstream/emscripten/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/"
       - "/home/boopy/Android/cmdline-tools/latest/bin/"
       - "/home/boopy/Android/platform-tools/"
+      - "/opt/gcc-17/bin/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/boopy/emsdk/"
+      - "/home/boopy/emsdk/upstream/emscripten/"
       - "/usr/lib/emsdk/"
       - "/usr/lib/emsdk/upstream/emscripten/"
       - "/usr/local/bin/"
@@ -1164,12 +1548,20 @@ events:
       - "/usr/bin/core_perl/"
       - "/usr/lib/plan9/bin/"
       - "/usr/lib/rustup/bin/"
+      - "/home/boopy/.cabal/bin/"
+      - "/home/boopy/.ghcup/bin/"
     searched_directories:
       - "/usr/bin/gcc-ranlib-16.2"
-      - "/home/boopy/emsdk/gcc-ranlib-16.2"
-      - "/home/boopy/emsdk/upstream/emscripten/gcc-ranlib-16.2"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin/gcc-ranlib-16.2"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/gcc-ranlib-16.2"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/gcc-ranlib-16.2"
       - "/home/boopy/Android/cmdline-tools/latest/bin/gcc-ranlib-16.2"
       - "/home/boopy/Android/platform-tools/gcc-ranlib-16.2"
+      - "/opt/gcc-17/bin/gcc-ranlib-16.2"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-16.2"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-16.2"
+      - "/home/boopy/emsdk/gcc-ranlib-16.2"
+      - "/home/boopy/emsdk/upstream/emscripten/gcc-ranlib-16.2"
       - "/usr/lib/emsdk/gcc-ranlib-16.2"
       - "/usr/lib/emsdk/upstream/emscripten/gcc-ranlib-16.2"
       - "/usr/local/bin/gcc-ranlib-16.2"
@@ -1183,11 +1575,19 @@ events:
       - "/usr/bin/core_perl/gcc-ranlib-16.2"
       - "/usr/lib/plan9/bin/gcc-ranlib-16.2"
       - "/usr/lib/rustup/bin/gcc-ranlib-16.2"
+      - "/home/boopy/.cabal/bin/gcc-ranlib-16.2"
+      - "/home/boopy/.ghcup/bin/gcc-ranlib-16.2"
       - "/usr/bin/gcc-ranlib-16"
-      - "/home/boopy/emsdk/gcc-ranlib-16"
-      - "/home/boopy/emsdk/upstream/emscripten/gcc-ranlib-16"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin/gcc-ranlib-16"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/gcc-ranlib-16"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/gcc-ranlib-16"
       - "/home/boopy/Android/cmdline-tools/latest/bin/gcc-ranlib-16"
       - "/home/boopy/Android/platform-tools/gcc-ranlib-16"
+      - "/opt/gcc-17/bin/gcc-ranlib-16"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-16"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-16"
+      - "/home/boopy/emsdk/gcc-ranlib-16"
+      - "/home/boopy/emsdk/upstream/emscripten/gcc-ranlib-16"
       - "/usr/lib/emsdk/gcc-ranlib-16"
       - "/usr/lib/emsdk/upstream/emscripten/gcc-ranlib-16"
       - "/usr/local/bin/gcc-ranlib-16"
@@ -1201,11 +1601,19 @@ events:
       - "/usr/bin/core_perl/gcc-ranlib-16"
       - "/usr/lib/plan9/bin/gcc-ranlib-16"
       - "/usr/lib/rustup/bin/gcc-ranlib-16"
+      - "/home/boopy/.cabal/bin/gcc-ranlib-16"
+      - "/home/boopy/.ghcup/bin/gcc-ranlib-16"
       - "/usr/bin/gcc-ranlib16"
-      - "/home/boopy/emsdk/gcc-ranlib16"
-      - "/home/boopy/emsdk/upstream/emscripten/gcc-ranlib16"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin/gcc-ranlib16"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/gcc-ranlib16"
+      - "/home/boopy/dev/sdk/tizen/server/sdktools/data/gcc-ranlib16"
       - "/home/boopy/Android/cmdline-tools/latest/bin/gcc-ranlib16"
       - "/home/boopy/Android/platform-tools/gcc-ranlib16"
+      - "/opt/gcc-17/bin/gcc-ranlib16"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib16"
+      - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib16"
+      - "/home/boopy/emsdk/gcc-ranlib16"
+      - "/home/boopy/emsdk/upstream/emscripten/gcc-ranlib16"
       - "/usr/lib/emsdk/gcc-ranlib16"
       - "/usr/lib/emsdk/upstream/emscripten/gcc-ranlib16"
       - "/usr/local/bin/gcc-ranlib16"
@@ -1219,9 +1627,21 @@ events:
       - "/usr/bin/core_perl/gcc-ranlib16"
       - "/usr/lib/plan9/bin/gcc-ranlib16"
       - "/usr/lib/rustup/bin/gcc-ranlib16"
+      - "/home/boopy/.cabal/bin/gcc-ranlib16"
+      - "/home/boopy/.ghcup/bin/gcc-ranlib16"
     found: "/usr/bin/gcc-ranlib"
     search_context:
       ENV{PATH}:
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools/ide/bin"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data/tools"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/dev/sdk/tizen/server/sdktools/data"
+        - "/home/boopy/Android/cmdline-tools/latest/bin"
+        - "/home/boopy/Android/platform-tools"
+        - "/opt/gcc-17/bin"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/boopy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
         - "/home/boopy/emsdk"
         - "/home/boopy/emsdk/upstream/emscripten"
         - "/home/boopy/Android/cmdline-tools/latest/bin"
@@ -1240,6 +1660,8 @@ events:
         - "/usr/bin/core_perl"
         - "/usr/lib/plan9/bin"
         - "/usr/lib/rustup/bin"
+        - "/home/boopy/.cabal/bin"
+        - "/home/boopy/.ghcup/bin"
       CMAKE_INSTALL_PREFIX: "/home/boopy/dev/Projects/battlesystem/dist"
   -
     kind: "try_compile-v1"
@@ -1250,8 +1672,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/boopy/dev/Projects/battlesystem/build/CMakeFiles/CMakeScratch/TryCompile-rd92mq"
-      binary: "/home/boopy/dev/Projects/battlesystem/build/CMakeFiles/CMakeScratch/TryCompile-rd92mq"
+      source: "/home/boopy/dev/Projects/battlesystem/build/CMakeFiles/CMakeScratch/TryCompile-kAoYu9"
+      binary: "/home/boopy/dev/Projects/battlesystem/build/CMakeFiles/CMakeScratch/TryCompile-kAoYu9"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1262,13 +1684,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: '/home/boopy/dev/Projects/battlesystem/build/CMakeFiles/CMakeScratch/TryCompile-rd92mq'
+        Change Dir: '/home/boopy/dev/Projects/battlesystem/build/CMakeFiles/CMakeScratch/TryCompile-kAoYu9'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bb58e/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_bb58e.dir/build.make CMakeFiles/cmTC_bb58e.dir/build
-        make[1]: Entering directory '/home/boopy/dev/Projects/battlesystem/build/CMakeFiles/CMakeScratch/TryCompile-rd92mq'
-        Building CXX object CMakeFiles/cmTC_bb58e.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_bb58e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b922d/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_b922d.dir/build.make CMakeFiles/cmTC_b922d.dir/build
+        make[1]: Entering directory '/home/boopy/dev/Projects/battlesystem/build/CMakeFiles/CMakeScratch/TryCompile-kAoYu9'
+        Building CXX object CMakeFiles/cmTC_b922d.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_b922d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         Target: x86_64-pc-linux-gnu
@@ -1276,8 +1698,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 16.2.1 20260810 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bb58e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_bb58e.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_bb58e.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccYSVwLU.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b922d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b922d.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b922d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc8tO6VH.s
         GNU C++20 (GCC) version 16.2.1 20260810 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 16.2.1 20260810, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.28-GMP
         
@@ -1294,14 +1716,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 4e9ac8b201f4ca740be09d0c7a39f82f
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bb58e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_bb58e.dir/'
-         as -v --64 -o CMakeFiles/cmTC_bb58e.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccYSVwLU.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b922d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b922d.dir/'
+         as -v --64 -o CMakeFiles/cmTC_b922d.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc8tO6VH.s
         GNU assembler version 2.47 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.47
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bb58e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_bb58e.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_bb58e
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb58e.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b922d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b922d.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_b922d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b922d.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper
@@ -1312,14 +1734,14 @@ events:
         gcc version 16.2.1 20260810 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bb58e' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_bb58e.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2d5sqT.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_bb58e /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_bb58e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b922d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b922d.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWcFBFi.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b922d /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_b922d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
         collect2 version 16.2.1 20260810
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2d5sqT.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_bb58e /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_bb58e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWcFBFi.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b922d /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_b922d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
         GNU ld (GNU Binutils) 2.47
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bb58e' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_bb58e.'
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_bb58e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_bb58e
-        make[1]: Leaving directory '/home/boopy/dev/Projects/battlesystem/build/CMakeFiles/CMakeScratch/TryCompile-rd92mq'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b922d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b922d.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_b922d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b922d
+        make[1]: Leaving directory '/home/boopy/dev/Projects/battlesystem/build/CMakeFiles/CMakeScratch/TryCompile-kAoYu9'
         
       exitCode: 0
   -
@@ -1358,13 +1780,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
-        ignore line: [Change Dir: '/home/boopy/dev/Projects/battlesystem/build/CMakeFiles/CMakeScratch/TryCompile-rd92mq']
+        ignore line: [Change Dir: '/home/boopy/dev/Projects/battlesystem/build/CMakeFiles/CMakeScratch/TryCompile-kAoYu9']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bb58e/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_bb58e.dir/build.make CMakeFiles/cmTC_bb58e.dir/build]
-        ignore line: [make[1]: Entering directory '/home/boopy/dev/Projects/battlesystem/build/CMakeFiles/CMakeScratch/TryCompile-rd92mq']
-        ignore line: [Building CXX object CMakeFiles/cmTC_bb58e.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_bb58e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b922d/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_b922d.dir/build.make CMakeFiles/cmTC_b922d.dir/build]
+        ignore line: [make[1]: Entering directory '/home/boopy/dev/Projects/battlesystem/build/CMakeFiles/CMakeScratch/TryCompile-kAoYu9']
+        ignore line: [Building CXX object CMakeFiles/cmTC_b922d.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_b922d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -1372,8 +1794,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 16.2.1 20260810 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bb58e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_bb58e.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_bb58e.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccYSVwLU.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b922d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b922d.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_b922d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc8tO6VH.s]
         ignore line: [GNU C++20 (GCC) version 16.2.1 20260810 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 16.2.1 20260810  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.28-GMP]
         ignore line: []
@@ -1390,14 +1812,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 4e9ac8b201f4ca740be09d0c7a39f82f]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bb58e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_bb58e.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_bb58e.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccYSVwLU.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b922d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b922d.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_b922d.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc8tO6VH.s]
         ignore line: [GNU assembler version 2.47 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.47]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bb58e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_bb58e.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_bb58e]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb58e.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b922d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b922d.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_b922d]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b922d.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper]
@@ -1408,13 +1830,13 @@ events:
         ignore line: [gcc version 16.2.1 20260810 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bb58e' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_bb58e.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2d5sqT.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_bb58e /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_bb58e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b922d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b922d.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWcFBFi.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b922d /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_b922d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cc2d5sqT.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccWcFBFi.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-latomic_asneeded] ==> ignore
@@ -1430,7 +1852,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_bb58e] ==> ignore
+          arg [cmTC_b922d] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o]
@@ -1442,7 +1864,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_bb58e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_b922d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -1454,9 +1876,9 @@ events:
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
         ignore line: [collect2 version 16.2.1 20260810]
-        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2d5sqT.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_bb58e /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_bb58e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker [/usr/bin/ld]
-        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2d5sqT.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_bb58e /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_bb58e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker architecture flags [-m;elf]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2d5sqT.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_bb58e /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_bb58e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
+        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWcFBFi.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b922d /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_b922d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker [/usr/bin/ld]
+        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWcFBFi.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b922d /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_b922d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker architecture flags [-m;elf]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWcFBFi.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b922d /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_b922d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
         linker tool for 'CXX': /usr/bin/ld -m;elf
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o] ==> [/usr/lib/crti.o]

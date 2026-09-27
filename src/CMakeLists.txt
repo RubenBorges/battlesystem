@@ -3,10 +3,10 @@ set(SOURCES
     battlesystem.cpp
     damageengine.cpp
     actor.cpp
-    log.cpp
+    #log.cpp
     datamanager.cpp
     statistics.cpp
-    graph.cpp
+    #graph.cpp
     atbsystem.cpp
     priorityqueue.cpp
 )
@@ -14,8 +14,8 @@ set(HEADERPATHS
     include/damageengine.hpp
     include/statistics.hpp
     include/actor.hpp
-    include/graph.hpp
-    include/log.hpp
+   # include/graph.hpp
+   # include/log.hpp
     include/datamanager.hpp
     include/atbsystem.hpp
     include/priorityqueue.hpp

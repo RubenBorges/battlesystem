@@ -295,54 +295,6 @@ datamanager.cpp.s:
 	cd /home/boopy/dev/Projects/battlesystem/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/battlesystem.dir/build.make src/CMakeFiles/battlesystem.dir/datamanager.cpp.s
 .PHONY : datamanager.cpp.s
 
-graph.o: graph.cpp.o
-.PHONY : graph.o
-
-# target to build an object file
-graph.cpp.o:
-	cd /home/boopy/dev/Projects/battlesystem/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/battlesystem.dir/build.make src/CMakeFiles/battlesystem.dir/graph.cpp.o
-.PHONY : graph.cpp.o
-
-graph.i: graph.cpp.i
-.PHONY : graph.i
-
-# target to preprocess a source file
-graph.cpp.i:
-	cd /home/boopy/dev/Projects/battlesystem/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/battlesystem.dir/build.make src/CMakeFiles/battlesystem.dir/graph.cpp.i
-.PHONY : graph.cpp.i
-
-graph.s: graph.cpp.s
-.PHONY : graph.s
-
-# target to generate assembly for a file
-graph.cpp.s:
-	cd /home/boopy/dev/Projects/battlesystem/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/battlesystem.dir/build.make src/CMakeFiles/battlesystem.dir/graph.cpp.s
-.PHONY : graph.cpp.s
-
-log.o: log.cpp.o
-.PHONY : log.o
-
-# target to build an object file
-log.cpp.o:
-	cd /home/boopy/dev/Projects/battlesystem/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/battlesystem.dir/build.make src/CMakeFiles/battlesystem.dir/log.cpp.o
-.PHONY : log.cpp.o
-
-log.i: log.cpp.i
-.PHONY : log.i
-
-# target to preprocess a source file
-log.cpp.i:
-	cd /home/boopy/dev/Projects/battlesystem/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/battlesystem.dir/build.make src/CMakeFiles/battlesystem.dir/log.cpp.i
-.PHONY : log.cpp.i
-
-log.s: log.cpp.s
-.PHONY : log.s
-
-# target to generate assembly for a file
-log.cpp.s:
-	cd /home/boopy/dev/Projects/battlesystem/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/battlesystem.dir/build.make src/CMakeFiles/battlesystem.dir/log.cpp.s
-.PHONY : log.cpp.s
-
 priorityqueue.o: priorityqueue.cpp.o
 .PHONY : priorityqueue.o
 
@@ -419,12 +371,6 @@ help:
 	@echo "... datamanager.o"
 	@echo "... datamanager.i"
 	@echo "... datamanager.s"
-	@echo "... graph.o"
-	@echo "... graph.i"
-	@echo "... graph.s"
-	@echo "... log.o"
-	@echo "... log.i"
-	@echo "... log.s"
 	@echo "... priorityqueue.o"
 	@echo "... priorityqueue.i"
 	@echo "... priorityqueue.s"
