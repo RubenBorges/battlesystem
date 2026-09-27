@@ -7,7 +7,7 @@
     // Runs continuously during combat
     void AtbBattleSystem::update(float delta_time) {
         for (auto& actor : combatants) {
-            if (actor.current_hp <= 0 || actor.is_ready) continue;
+            if (actor.stats.current_hp <= 0 || actor.is_ready) continue;
 
             // Fill the ATB bar based on individual Speed and elapsed time
             actor.atb_gauge += actor.spd * delta_time * SPEED_MULTIPLIER;

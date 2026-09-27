@@ -1,131 +1,120 @@
-
+#pragma once 
 #include <compare>
 #include <cstdint>
-#include <iostream>
-#include <string>
-#include <vector>
+
 namespace stat {
-// Core Statistics
 
-// Health / Hit Points (HP)
-struct HP {
-  std::int16_t value{0};
-  friend auto operator<=>(const HP &lhs, const HP &rhs) = default;
+    // Helper CRTP Mixin to automatically inject operators safely into your types
+template <typename Derived>
+struct Arithmetic {
+    constexpr Arithmetic() noexcept = default;
+    constexpr Arithmetic(std::int16_t val) noexcept {
+        static_cast<Derived*>(this)->value = val;
+    }
+
+    // --- Automatic Type-Safe Spaceship & Equality Operators ---
+    constexpr friend auto operator<=>(const Derived& lhs, const Derived& rhs) noexcept {
+        return lhs.value <=> rhs.value;
+    }
+    constexpr friend bool operator==(const Derived& lhs, const Derived& rhs) noexcept {
+        return lhs.value == rhs.value;
+    }
+
+    // --- Compound Assignments ---
+    constexpr Derived& operator+=(const Derived& rhs) noexcept {
+        static_cast<Derived*>(this)->value += rhs.value;
+        return *static_cast<Derived*>(this);
+    }
+    constexpr Derived& operator-=(const Derived& rhs) noexcept {
+        static_cast<Derived*>(this)->value -= rhs.value;
+        return *static_cast<Derived*>(this);
+    }
+    
+    // --- Scaling Assignments ---
+    constexpr Derived& operator*=(std::int16_t scalar) noexcept {
+        static_cast<Derived*>(this)->value *= scalar;
+        return *static_cast<Derived*>(this);
+    }
+    constexpr Derived& operator/=(std::int16_t scalar) noexcept {
+        static_cast<Derived*>(this)->value /= scalar;
+        return *static_cast<Derived*>(this);
+    }
+
+    // --- Binary Operators ---
+    constexpr friend Derived operator+(Derived lhs, const Derived& rhs) noexcept { lhs += rhs; return lhs; }
+    constexpr friend Derived operator-(Derived lhs, const Derived& rhs) noexcept { lhs -= rhs; return lhs; }
+    constexpr friend Derived operator*(Derived lhs, std::int16_t scalar) noexcept { lhs *= scalar; return lhs; }
+    constexpr friend Derived operator*(std::int16_t scalar, Derived rhs) noexcept { rhs *= scalar; return rhs; }
+    constexpr friend Derived operator/(Derived lhs, std::int16_t scalar) noexcept { lhs /= scalar; return lhs; }
+
+    // --- Implicit Conversion ---
+    constexpr operator std::int16_t() const noexcept { return static_cast<const Derived*>(this)->value; }
 };
 
-// Mana / Skill Points (MP / SP)
-struct MP {
-  std::int16_t value{0};
-  friend auto operator<=>(const MP &lhs, const MP &rhs) = default;
-};
+    //=================//
+    // Core Statistics //
+    //=================//
+    struct HP : Arithmetic<HP>         {std::int16_t value{0};};
+    struct MP : Arithmetic<MP>         {std::int16_t value{0};};
+    struct Atk : Arithmetic<Atk>       {std::int16_t value{0};};
+    struct Def : Arithmetic<Def>       {std::int16_t value{0};};
+    struct Int : Arithmetic<Int>       {std::int16_t value{0};};
+    struct Spirit : Arithmetic<Spirit> {std::int16_t value{0};};
 
-// Physical Attack (ATK / STR)
-struct Atk {
-  std::int16_t value{0};
-  friend auto operator<=>(const Atk &lhs, const Atk &rhs) = default;
-};
+    //==========================//
+    // Turn & Action Modifiers //
+    //=========================//
+    struct Spd : Arithmetic<Spd>         {std::int16_t value{0};};
+    struct Crit : Arithmetic<Crit>       {std::int16_t value{0};};
+    struct CritDmg : Arithmetic<CritDmg> {std::int16_t value{0};};
+    struct Acc : Arithmetic<Acc>         {std::int16_t value{0};};
+    struct Eva : Arithmetic<Eva>         {std::int16_t value{0};};
 
-// Physical Defense (DEF / VIT)
-struct Def {
-  std::int16_t value{0};
-  friend auto operator<=>(const Def &lhs, const Def &rhs) = default;
-};
+    //==================================//
+    // Defensive & Mitigation Modifiers //
+    //==================================//
+    struct Block : Arithmetic<Block>   {std::int16_t value{0};};
+    struct DR : Arithmetic<DR>         {std::int16_t value{0};};
+    struct VAMP : Arithmetic<VAMP>     {std::int16_t value{0};};
+    struct Resist : Arithmetic<Resist> {std::int16_t value{0};};
 
-// Magic Attack (MATK / INT)
-struct Int {
-  std::int16_t value{0};
-  friend auto operator<=>(const Int &lhs, const Int &rhs) = default;
-};
+    //===================================//
+    // Attribute & Progression Modifiers //
+    //===================================//
+    struct Aggro : Arithmetic<Aggro>       {std::int16_t value{0};};
+    struct Affinity : Arithmetic<Affinity> {std::int16_t value{0};};
 
-// Magic Defense (MDEF / SPR)
-struct Spirit {
-  std::int16_t value{0};
-  friend auto operator<=>(const Spirit &lhs, const Spirit &rhs) = default;
-};
-
-// Turn & Action Modifiers //
-
-// Speed / Agility (SPD / AGI):
-struct Spd {
-  std::int16_t value{0};
-  friend auto operator<=>(const Spd &lhs, const Spd &rhs) = default;
-};
-
-// Critical Hit Rate (CRT%)
-struct Crit {
-  std::int16_t value{0};
-  friend auto operator<=>(const Crit &lhs, const Crit &rhs) = default;
-};
-
-// Critical Damage Multiplier (CRIT DMG)
-struct CritDmg {
-  std::int16_t value{0};
-  friend auto operator<=>(const CritDmg &lhs, const CritDmg &rhs) = default;
-};
-
-// Accuracy / Hit Rate (ACC)
-struct Acc {
-  std::int16_t value{0};
-  friend auto operator<=>(const Acc &lhs, const Acc &rhs) = default;
-};
-
-// Evasion / Dodge (EVA)
-struct Eva {
-  std::int16_t value{0};
-  friend auto operator<=>(const Eva &lhs, const Eva &rhs) = default;
-};
-
-// Defensive & Mitigation Modifiers //
-
-// Block Rate / Parry
-struct Block {
-  std::int16_t value{0};
-  friend auto operator<=>(const Block &lhs, const Block &rhs) = default;
-};
-
-// Damage Reduction (DR%)
-struct DR {
-  std::int16_t value{0};
-  friend auto operator<=>(const DR &lhs, const DR &rhs) = default;
-};
-
-// Lifesteal / Omnivamp (VAMP%)
-struct VAMP {
-  std::int16_t value{0};
-  friend auto operator<=>(const VAMP &lhs, const VAMP &rhs) = default;
-};
-
-// Tenacity / Resistance
-struct Resist {
-  std::int16_t value{0};
-  friend auto operator<=>(const Resist &lhs, const Resist &rhs) = default;
-};
-
-// Attribute & Progression Modifiers //
-
-// Aggro / Threat Rate
-struct Aggro {
-  std::int16_t value{0};
-  friend auto operator<=>(const Aggro &lhs, const Aggro &rhs) = default;
-};
-
-// Elemental Mastery / Affinity
-struct Affinity {
-  std::int16_t value{0};
-  friend auto operator<=>(const Affinity &lhs, const Affinity &rhs) = default;
-};
-
-// Cooldown Reduction (CDR)
-struct CDR {
-  std::int16_t value{0};
-  friend auto operator<=>(const CDR &lhs, const CDR &rhs) = default;
-};
-
-// Experience Modifier (EXP%)
-struct XpMod {
-  std::int16_t value{0};
-  friend auto operator<=>(const XpMod &lhs, const XpMod &rhs) = default;
-};
+    // Cooldown Reduction (CDR)
+    struct CDR : Arithmetic<CDR>     {std::int16_t value{0};};
+    struct XpMod : Arithmetic<XpMod> {std::int16_t value{0};};
 } // namespace stat
 
-class Statistics {};
+struct Statistics {
+    stat::HP     current_hp{0};
+    stat::MP     current_mp{0};
+    stat::HP         max_hp{0};
+    stat::MP         max_mp{0};
+    stat::Atk           atk{0};
+    stat::Def           def{0};
+    stat::Int         intel{0}; 
+    stat::Spirit     spirit{0};
+
+    stat::Spd             spd{0};
+    float        atb_gauge{0.0f}; 
+    bool         is_ready{false};
+
+    stat::Crit          crit{0};
+    stat::CritDmg   crit_dmg{0};
+    stat::Acc            acc{0};
+    stat::Eva            eva{0};
+
+    stat::Block   block{0};
+    stat::DR         dr{0};
+    stat::VAMP     vamp{0};
+    stat::Resist resist{0};
+
+    stat::Aggro       aggro{0};
+    stat::Affinity affinity{0};
+    stat::CDR           cdr{0};
+    stat::XpMod      xp_mod{0};
+};
