@@ -46,5 +46,11 @@
   "command": "/usr/bin/c++  -I/home/boopy/dev/Projects/battlesystem/src/include -g -std=gnu++26 -O3 -Wall -Wextra -march=native -o CMakeFiles/battlesystem.dir/atbsystem.cpp.o -c /home/boopy/dev/Projects/battlesystem/src/atbsystem.cpp",
   "file": "/home/boopy/dev/Projects/battlesystem/src/atbsystem.cpp",
   "output": "src/CMakeFiles/battlesystem.dir/atbsystem.cpp.o"
+},
+{
+  "directory": "/home/boopy/dev/Projects/battlesystem/build/src",
+  "command": "/usr/bin/c++  -I/home/boopy/dev/Projects/battlesystem/src/include -g -std=gnu++26 -O3 -Wall -Wextra -march=native -o CMakeFiles/battlesystem.dir/priorityqueue.cpp.o -c /home/boopy/dev/Projects/battlesystem/src/priorityqueue.cpp",
+  "file": "/home/boopy/dev/Projects/battlesystem/src/priorityqueue.cpp",
+  "output": "src/CMakeFiles/battlesystem.dir/priorityqueue.cpp.o"
 }
 ]

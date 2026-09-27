@@ -14,6 +14,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/battlesystem.dir/graph.cpp.o.d"
   "CMakeFiles/battlesystem.dir/log.cpp.o"
   "CMakeFiles/battlesystem.dir/log.cpp.o.d"
+  "CMakeFiles/battlesystem.dir/priorityqueue.cpp.o"
+  "CMakeFiles/battlesystem.dir/priorityqueue.cpp.o.d"
   "CMakeFiles/battlesystem.dir/statistics.cpp.o"
   "CMakeFiles/battlesystem.dir/statistics.cpp.o.d"
   "battlesystem"

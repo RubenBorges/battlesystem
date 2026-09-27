@@ -8,6 +8,7 @@ set(SOURCES
     statistics.cpp
     graph.cpp
     atbsystem.cpp
+    priorityqueue.cpp
 )
 set(HEADERPATHS
     include/damageengine.hpp
@@ -17,7 +18,8 @@ set(HEADERPATHS
     include/log.hpp
     include/datamanager.hpp
     include/atbsystem.hpp
-)
+    include/priorityqueue.hpp
+    )
 
 add_executable(battlesystem ${SOURCES} ${HEADERPATHS})
 

@@ -343,6 +343,30 @@ log.cpp.s:
 	cd /home/boopy/dev/Projects/battlesystem/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/battlesystem.dir/build.make src/CMakeFiles/battlesystem.dir/log.cpp.s
 .PHONY : log.cpp.s
 
+priorityqueue.o: priorityqueue.cpp.o
+.PHONY : priorityqueue.o
+
+# target to build an object file
+priorityqueue.cpp.o:
+	cd /home/boopy/dev/Projects/battlesystem/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/battlesystem.dir/build.make src/CMakeFiles/battlesystem.dir/priorityqueue.cpp.o
+.PHONY : priorityqueue.cpp.o
+
+priorityqueue.i: priorityqueue.cpp.i
+.PHONY : priorityqueue.i
+
+# target to preprocess a source file
+priorityqueue.cpp.i:
+	cd /home/boopy/dev/Projects/battlesystem/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/battlesystem.dir/build.make src/CMakeFiles/battlesystem.dir/priorityqueue.cpp.i
+.PHONY : priorityqueue.cpp.i
+
+priorityqueue.s: priorityqueue.cpp.s
+.PHONY : priorityqueue.s
+
+# target to generate assembly for a file
+priorityqueue.cpp.s:
+	cd /home/boopy/dev/Projects/battlesystem/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/battlesystem.dir/build.make src/CMakeFiles/battlesystem.dir/priorityqueue.cpp.s
+.PHONY : priorityqueue.cpp.s
+
 statistics.o: statistics.cpp.o
 .PHONY : statistics.o
 
@@ -401,6 +425,9 @@ help:
 	@echo "... log.o"
 	@echo "... log.i"
 	@echo "... log.s"
+	@echo "... priorityqueue.o"
+	@echo "... priorityqueue.i"
+	@echo "... priorityqueue.s"
 	@echo "... statistics.o"
 	@echo "... statistics.i"
 	@echo "... statistics.s"
