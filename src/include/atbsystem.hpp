@@ -2,13 +2,8 @@
 #include <statistics.hpp>
 #include <vector>
 #include <string>
+#include <combatant.hpp>
 
-
-struct Combatant {
-    std::string name;
-    Statistics stats;
-    bool is_alive = true;
-};
 
 class AtbEngine {
 private:
