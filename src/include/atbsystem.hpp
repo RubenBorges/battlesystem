@@ -1,6 +1,7 @@
 #pragma once 
 #include <statistics.hpp>
 #include <actor.hpp>
+
 class AtbBattleSystem {
 private:
     std::vector<Actor> combatants;

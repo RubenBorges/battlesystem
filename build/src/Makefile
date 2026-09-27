@@ -223,30 +223,6 @@ atbsystem.cpp.s:
 	cd /home/boopy/dev/Projects/battlesystem/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/battlesystem.dir/build.make src/CMakeFiles/battlesystem.dir/atbsystem.cpp.s
 .PHONY : atbsystem.cpp.s
 
-battlecalculator.o: battlecalculator.cpp.o
-.PHONY : battlecalculator.o
-
-# target to build an object file
-battlecalculator.cpp.o:
-	cd /home/boopy/dev/Projects/battlesystem/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/battlesystem.dir/build.make src/CMakeFiles/battlesystem.dir/battlecalculator.cpp.o
-.PHONY : battlecalculator.cpp.o
-
-battlecalculator.i: battlecalculator.cpp.i
-.PHONY : battlecalculator.i
-
-# target to preprocess a source file
-battlecalculator.cpp.i:
-	cd /home/boopy/dev/Projects/battlesystem/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/battlesystem.dir/build.make src/CMakeFiles/battlesystem.dir/battlecalculator.cpp.i
-.PHONY : battlecalculator.cpp.i
-
-battlecalculator.s: battlecalculator.cpp.s
-.PHONY : battlecalculator.s
-
-# target to generate assembly for a file
-battlecalculator.cpp.s:
-	cd /home/boopy/dev/Projects/battlesystem/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/battlesystem.dir/build.make src/CMakeFiles/battlesystem.dir/battlecalculator.cpp.s
-.PHONY : battlecalculator.cpp.s
-
 battlesystem.o: battlesystem.cpp.o
 .PHONY : battlesystem.o
 
@@ -270,6 +246,30 @@ battlesystem.s: battlesystem.cpp.s
 battlesystem.cpp.s:
 	cd /home/boopy/dev/Projects/battlesystem/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/battlesystem.dir/build.make src/CMakeFiles/battlesystem.dir/battlesystem.cpp.s
 .PHONY : battlesystem.cpp.s
+
+damageengine.o: damageengine.cpp.o
+.PHONY : damageengine.o
+
+# target to build an object file
+damageengine.cpp.o:
+	cd /home/boopy/dev/Projects/battlesystem/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/battlesystem.dir/build.make src/CMakeFiles/battlesystem.dir/damageengine.cpp.o
+.PHONY : damageengine.cpp.o
+
+damageengine.i: damageengine.cpp.i
+.PHONY : damageengine.i
+
+# target to preprocess a source file
+damageengine.cpp.i:
+	cd /home/boopy/dev/Projects/battlesystem/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/battlesystem.dir/build.make src/CMakeFiles/battlesystem.dir/damageengine.cpp.i
+.PHONY : damageengine.cpp.i
+
+damageengine.s: damageengine.cpp.s
+.PHONY : damageengine.s
+
+# target to generate assembly for a file
+damageengine.cpp.s:
+	cd /home/boopy/dev/Projects/battlesystem/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/battlesystem.dir/build.make src/CMakeFiles/battlesystem.dir/damageengine.cpp.s
+.PHONY : damageengine.cpp.s
 
 datamanager.o: datamanager.cpp.o
 .PHONY : datamanager.o
@@ -386,12 +386,12 @@ help:
 	@echo "... atbsystem.o"
 	@echo "... atbsystem.i"
 	@echo "... atbsystem.s"
-	@echo "... battlecalculator.o"
-	@echo "... battlecalculator.i"
-	@echo "... battlecalculator.s"
 	@echo "... battlesystem.o"
 	@echo "... battlesystem.i"
 	@echo "... battlesystem.s"
+	@echo "... damageengine.o"
+	@echo "... damageengine.i"
+	@echo "... damageengine.s"
 	@echo "... datamanager.o"
 	@echo "... datamanager.i"
 	@echo "... datamanager.s"

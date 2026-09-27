@@ -1,7 +1,7 @@
 # Source and header setups
 set(SOURCES
     battlesystem.cpp
-    battlecalculator.cpp
+    damageengine.cpp
     actor.cpp
     log.cpp
     datamanager.cpp
@@ -10,7 +10,7 @@ set(SOURCES
     atbsystem.cpp
 )
 set(HEADERPATHS
-    include/battlecalculator.hpp
+    include/damageengine.hpp
     include/statistics.hpp
     include/actor.hpp
     include/graph.hpp

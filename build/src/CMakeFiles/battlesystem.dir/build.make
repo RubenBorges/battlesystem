@@ -86,19 +86,19 @@ src/CMakeFiles/battlesystem.dir/battlesystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/battlesystem.dir/battlesystem.cpp.s"
 	cd /home/boopy/dev/Projects/battlesystem/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boopy/dev/Projects/battlesystem/src/battlesystem.cpp -o CMakeFiles/battlesystem.dir/battlesystem.cpp.s
 
-src/CMakeFiles/battlesystem.dir/battlecalculator.cpp.o: src/CMakeFiles/battlesystem.dir/flags.make
-src/CMakeFiles/battlesystem.dir/battlecalculator.cpp.o: /home/boopy/dev/Projects/battlesystem/src/battlecalculator.cpp
-src/CMakeFiles/battlesystem.dir/battlecalculator.cpp.o: src/CMakeFiles/battlesystem.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/boopy/dev/Projects/battlesystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/battlesystem.dir/battlecalculator.cpp.o"
-	cd /home/boopy/dev/Projects/battlesystem/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/battlesystem.dir/battlecalculator.cpp.o -MF CMakeFiles/battlesystem.dir/battlecalculator.cpp.o.d -o CMakeFiles/battlesystem.dir/battlecalculator.cpp.o -c /home/boopy/dev/Projects/battlesystem/src/battlecalculator.cpp
+src/CMakeFiles/battlesystem.dir/damageengine.cpp.o: src/CMakeFiles/battlesystem.dir/flags.make
+src/CMakeFiles/battlesystem.dir/damageengine.cpp.o: /home/boopy/dev/Projects/battlesystem/src/damageengine.cpp
+src/CMakeFiles/battlesystem.dir/damageengine.cpp.o: src/CMakeFiles/battlesystem.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/boopy/dev/Projects/battlesystem/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/battlesystem.dir/damageengine.cpp.o"
+	cd /home/boopy/dev/Projects/battlesystem/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/battlesystem.dir/damageengine.cpp.o -MF CMakeFiles/battlesystem.dir/damageengine.cpp.o.d -o CMakeFiles/battlesystem.dir/damageengine.cpp.o -c /home/boopy/dev/Projects/battlesystem/src/damageengine.cpp
 
-src/CMakeFiles/battlesystem.dir/battlecalculator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/battlesystem.dir/battlecalculator.cpp.i"
-	cd /home/boopy/dev/Projects/battlesystem/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/boopy/dev/Projects/battlesystem/src/battlecalculator.cpp > CMakeFiles/battlesystem.dir/battlecalculator.cpp.i
+src/CMakeFiles/battlesystem.dir/damageengine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/battlesystem.dir/damageengine.cpp.i"
+	cd /home/boopy/dev/Projects/battlesystem/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/boopy/dev/Projects/battlesystem/src/damageengine.cpp > CMakeFiles/battlesystem.dir/damageengine.cpp.i
 
-src/CMakeFiles/battlesystem.dir/battlecalculator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/battlesystem.dir/battlecalculator.cpp.s"
-	cd /home/boopy/dev/Projects/battlesystem/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boopy/dev/Projects/battlesystem/src/battlecalculator.cpp -o CMakeFiles/battlesystem.dir/battlecalculator.cpp.s
+src/CMakeFiles/battlesystem.dir/damageengine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/battlesystem.dir/damageengine.cpp.s"
+	cd /home/boopy/dev/Projects/battlesystem/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boopy/dev/Projects/battlesystem/src/damageengine.cpp -o CMakeFiles/battlesystem.dir/damageengine.cpp.s
 
 src/CMakeFiles/battlesystem.dir/actor.cpp.o: src/CMakeFiles/battlesystem.dir/flags.make
 src/CMakeFiles/battlesystem.dir/actor.cpp.o: /home/boopy/dev/Projects/battlesystem/src/actor.cpp
@@ -187,7 +187,7 @@ src/CMakeFiles/battlesystem.dir/atbsystem.cpp.s: cmake_force
 # Object files for target battlesystem
 battlesystem_OBJECTS = \
 "CMakeFiles/battlesystem.dir/battlesystem.cpp.o" \
-"CMakeFiles/battlesystem.dir/battlecalculator.cpp.o" \
+"CMakeFiles/battlesystem.dir/damageengine.cpp.o" \
 "CMakeFiles/battlesystem.dir/actor.cpp.o" \
 "CMakeFiles/battlesystem.dir/log.cpp.o" \
 "CMakeFiles/battlesystem.dir/datamanager.cpp.o" \
@@ -199,7 +199,7 @@ battlesystem_OBJECTS = \
 battlesystem_EXTERNAL_OBJECTS =
 
 src/battlesystem: src/CMakeFiles/battlesystem.dir/battlesystem.cpp.o
-src/battlesystem: src/CMakeFiles/battlesystem.dir/battlecalculator.cpp.o
+src/battlesystem: src/CMakeFiles/battlesystem.dir/damageengine.cpp.o
 src/battlesystem: src/CMakeFiles/battlesystem.dir/actor.cpp.o
 src/battlesystem: src/CMakeFiles/battlesystem.dir/log.cpp.o
 src/battlesystem: src/CMakeFiles/battlesystem.dir/datamanager.cpp.o

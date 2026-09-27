@@ -3,8 +3,7 @@
 #include <cstdint>
 
 namespace stat {
-
-    // Helper CRTP Mixin to automatically inject operators safely into your types
+// Helper CRTP Mixin to automatically inject operators safely into your types
 template <typename Derived>
 struct Arithmetic {
     constexpr Arithmetic() noexcept = default;

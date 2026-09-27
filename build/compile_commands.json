@@ -7,9 +7,9 @@
 },
 {
   "directory": "/home/boopy/dev/Projects/battlesystem/build/src",
-  "command": "/usr/bin/c++  -I/home/boopy/dev/Projects/battlesystem/src/include -g -std=gnu++26 -O3 -Wall -Wextra -march=native -o CMakeFiles/battlesystem.dir/battlecalculator.cpp.o -c /home/boopy/dev/Projects/battlesystem/src/battlecalculator.cpp",
-  "file": "/home/boopy/dev/Projects/battlesystem/src/battlecalculator.cpp",
-  "output": "src/CMakeFiles/battlesystem.dir/battlecalculator.cpp.o"
+  "command": "/usr/bin/c++  -I/home/boopy/dev/Projects/battlesystem/src/include -g -std=gnu++26 -O3 -Wall -Wextra -march=native -o CMakeFiles/battlesystem.dir/damageengine.cpp.o -c /home/boopy/dev/Projects/battlesystem/src/damageengine.cpp",
+  "file": "/home/boopy/dev/Projects/battlesystem/src/damageengine.cpp",
+  "output": "src/CMakeFiles/battlesystem.dir/damageengine.cpp.o"
 },
 {
   "directory": "/home/boopy/dev/Projects/battlesystem/build/src",
