@@ -1,1 +1,1 @@
-Realtime datastreamer written in Modern C++
+Realtime battlesystem written in Modern C++
