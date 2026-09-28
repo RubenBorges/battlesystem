@@ -2,7 +2,6 @@
 set(SOURCES
     battlesystem.cpp
     damageengine.cpp
-    actor.cpp
     #log.cpp
     datamanager.cpp
     statistics.cpp
@@ -13,7 +12,6 @@ set(SOURCES
 set(HEADERPATHS
     include/damageengine.hpp
     include/statistics.hpp
-    include/actor.hpp
    # include/graph.hpp
    # include/log.hpp
     include/datamanager.hpp

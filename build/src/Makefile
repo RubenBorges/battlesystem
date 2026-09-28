@@ -175,30 +175,6 @@ battlesystem/fast:
 	cd /home/boopy/dev/Projects/battlesystem/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/battlesystem.dir/build.make src/CMakeFiles/battlesystem.dir/build
 .PHONY : battlesystem/fast
 
-actor.o: actor.cpp.o
-.PHONY : actor.o
-
-# target to build an object file
-actor.cpp.o:
-	cd /home/boopy/dev/Projects/battlesystem/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/battlesystem.dir/build.make src/CMakeFiles/battlesystem.dir/actor.cpp.o
-.PHONY : actor.cpp.o
-
-actor.i: actor.cpp.i
-.PHONY : actor.i
-
-# target to preprocess a source file
-actor.cpp.i:
-	cd /home/boopy/dev/Projects/battlesystem/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/battlesystem.dir/build.make src/CMakeFiles/battlesystem.dir/actor.cpp.i
-.PHONY : actor.cpp.i
-
-actor.s: actor.cpp.s
-.PHONY : actor.s
-
-# target to generate assembly for a file
-actor.cpp.s:
-	cd /home/boopy/dev/Projects/battlesystem/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/battlesystem.dir/build.make src/CMakeFiles/battlesystem.dir/actor.cpp.s
-.PHONY : actor.cpp.s
-
 atbsystem.o: atbsystem.cpp.o
 .PHONY : atbsystem.o
 
@@ -356,9 +332,6 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... battlesystem"
-	@echo "... actor.o"
-	@echo "... actor.i"
-	@echo "... actor.s"
 	@echo "... atbsystem.o"
 	@echo "... atbsystem.i"
 	@echo "... atbsystem.s"

@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/boopy/dev/Projects/battlesystem/src/actor.cpp" "src/CMakeFiles/battlesystem.dir/actor.cpp.o" "gcc" "src/CMakeFiles/battlesystem.dir/actor.cpp.o.d"
   "/home/boopy/dev/Projects/battlesystem/src/atbsystem.cpp" "src/CMakeFiles/battlesystem.dir/atbsystem.cpp.o" "gcc" "src/CMakeFiles/battlesystem.dir/atbsystem.cpp.o.d"
   "/home/boopy/dev/Projects/battlesystem/src/battlesystem.cpp" "src/CMakeFiles/battlesystem.dir/battlesystem.cpp.o" "gcc" "src/CMakeFiles/battlesystem.dir/battlesystem.cpp.o.d"
   "/home/boopy/dev/Projects/battlesystem/src/damageengine.cpp" "src/CMakeFiles/battlesystem.dir/damageengine.cpp.o" "gcc" "src/CMakeFiles/battlesystem.dir/damageengine.cpp.o.d"
